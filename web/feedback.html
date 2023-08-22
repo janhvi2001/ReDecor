@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+<!--      <form action="feedback.jsp" method="post">-->
+
+<div class="contact-section">
+
+  <h1><b>Feedback Here!!</b></h1>
+  <div class="border"></div>
+  <form class="contact-form" action="feedback.jsp" method="post">
+    <input type="text"  name="name" class="contact-form-text" placeholder="Your name">
+    <input type="email" name="email" class="contact-form-text" placeholder="Your email">
+    <input type="number"  name="contact" class="contact-form-text" placeholder="Your phone" maxlength="10">
+    <textarea  name="feedback" class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" name="Send" class="contact-form-btn" value="Send">
+  </form>
+<!--  </form>-->
+</div>
+  </body>
+</html>

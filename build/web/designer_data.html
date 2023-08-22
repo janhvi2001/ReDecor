@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Designers form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            
+            body{
+                background:url(feed-bg.jfif) no-repeat;
+                background-size: 1570px 800px;
+            }
+            
+            table {
+                border: 2px solid black;
+                position:absolute;
+                left:500px;
+                top:120px;
+            }
+            
+            h1 {
+                color:white;
+                position:absolute;
+                top:30px;
+                left:600px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>DESIGNER'S FORM</h1>
+        <form action="designer_server.jsp" method="POST">
+            <table border=1  cellspacing=20 cellpadding=20>
+                <tr>
+            <td><b>Designer's Name</b></td><td><input type="text" name="dn"></td></tr><br>
+           <tr><td><b>Phone Number</b></td><td><input type="number" name="pn"></td></tr><br>
+           <tr><td><b>Years Of Experience</b></td><td><input type="number" name="ye"></td></tr><br>
+           <tr><td><b>Number Of Projects Undertaken</b></td><td><input type="number" name="np"></td></tr><br>
+            <tr><td colspan='2' align='center'><input type="submit" name="SAVE" ></td></tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
